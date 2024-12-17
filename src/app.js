@@ -9,7 +9,7 @@ import forecast from './utils/forecast.js';
 
 const app = express()
 
-// Define paths for Express config
+// Defines paths for Express config
 const publicPath = path.join(fileURLToPath(import.meta.url), '../../public')
 const viewsPath = path.join(fileURLToPath(import.meta.url), '../../templates/views')
 const partialsPath = path.join(fileURLToPath(import.meta.url), '../../templates/partials')
